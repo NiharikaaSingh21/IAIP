@@ -6,7 +6,7 @@ This repository contains a collection of Python projects developed during my int
 
 🎮Project 1: Tic-Tac-Toe
 
-📂 Project 2: Bank Management
+🏦 Project 2: Bank Management
 
 🛠️ Project 3: Snake Game
 
@@ -24,12 +24,34 @@ A Python-based graphical game featuring both local competition and an automated 
 
 <b>Game Management</b>: Automated win/draw detection with an instant board reset feature.
 
-<b>🛠️ Tech StackLanguage</b>: PythonLibrary: Tkinter (GUI)Logic: Conditional branching and state-checking algorithms.
+<b>📂 Tech StackLanguage</b>: PythonLibrary: Tkinter (GUI)Logic: Conditional branching and state-checking algorithms.
 
  
-# 🚀 Quick Startbash
+<b>🚀 Quick Startbash</b>
 
 cd Tic_Tac_Toe
 
 python tic_tac_toe.py
+
+<h2>🏦 Bank Management System</h2>
+A secure desktop banking application featuring data persistence and a customized graphical interface.
+
+<h3>✨ Key Features</h3>
+
+Authentication: Full Register/Login flow with credentials stored securely in JSON files.
+
+
+Financial Operations: Real-time balance updates for deposits and withdrawals (credits/debits).
+
+Audit Trail: Automated logging of all activities into a transaction history view.
+
+Custom UI: Enhanced visual experience using Tkinter’s canvas properties and background image integration.
+
+<b>🛠️ Tech Stack</b>
+
+Language: Python 3.x
+
+Storage: JSON (File-based database)
+
+GUI: Tkinter
 
