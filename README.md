@@ -8,9 +8,9 @@ This repository contains a collection of Python projects developed during my int
 
 🏦 Project 2: Bank Management
 
-🛠️ Project 3: Snake Game
+🐍 Project 3: Snake Game
 
-<h2>🎮 Tic-Tac-Toe</h2> 
+<h2>🎮Project 1: Tic-Tac-Toe</h2> 
 
 A Python-based graphical game featuring both local competition and an automated opponent.
 
@@ -33,7 +33,7 @@ cd Tic_Tac_Toe
 
 python tic_tac_toe.py
 
-<h2>🏦 Bank Management System</h2>
+<h2>🏦 Project2: Bank Management System</h2>
 A secure desktop banking application featuring data persistence and a customized graphical interface.
 
 <h3>✨ Key Features</h3>
@@ -55,3 +55,35 @@ Storage: JSON (File-based database)
 
 GUI: Tkinter
 
+<h2>🐍 Project 3: Snake Game </h2>
+An enhanced version of the classic arcade game featuring an immersive environment, strategic barriers, and persistent data tracking.
+
+<h3>✨ Key Features</h3>
+
+<b>Courtyard Environment: </b> Unlike traditional blank-screen versions, this game features a detailed Courtyard background, creating a more engaging visual experience.
+
+<b>Barrier Challenges: </b>Features high-risk barriers (obstacles) placed throughout the courtyard. The user must navigate through these hazards to survive and keep the game running.
+
+<b>Competitive Scoring:</b> Implements a High Score system that saves the player's best record to a local highscore.txt file, allowing users to compete against their own previous bests.
+
+<b>Responsive Control Logic:</b> Precision-based movement and collision detection to handle the interaction between the snake, the food, and the courtyard barriers.
+
+🛠️ Tech Stack | Component | Technology | | :--- | :--- | | Language | Python 3.x | | Graphics | Tkinter  | | Data Persistence | File I/O (txt handling) | | Mechanics | Object-oriented collision algorithms |
+
+<h4>Gameplay Logic:</h4> If the snake's head coordinates overlap with the barrier or boundary coordinates, the game resets and compares the final score against the value stored in highscore.txt.
+To give your repository a professional and innovative finish, we can merge the Roadmap concept with a Signature that highlights your role as a creator. This ending frames you as someone who doesn't just finish tasks, but continuously iterates and improves.
+
+
+<h2>🗺️ Roadmap & Future Enhancements</h2>
+The journey doesn't end with these projects. I am committed to continuous iteration and plan to extend this repository with:
+
+<b>Network Integration:</b> Transitioning the Tic-Tac-Toe engine into a real-time online multiplayer experience using Socket programming.
+
+<b>Database Scaling:</b> Migrating from flat-file JSON storage to a robust SQL backend for the Bank Management System.
+
+<b>Performance Visualization:</b> Developing a visual debugger to demonstrate how complex algorithms—like the Dual-Trie Search and Dijkstra’s Pathfinding—process data in real-time.
+
+🖋️ Built with Logic & ☕ by Niharikaa Singh
+"Code is the canvas where logic meets creativity."
+
+🤝 Let's Collaborate! I am always open to discussing Python architecture or potential collaborations.
